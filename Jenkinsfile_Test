@@ -1,0 +1,9 @@
+#!groovy
+node {
+    stage('Initialize'){
+        echo '0.Init'
+        sh("pwd")
+        sh("ls")
+        sh("rm -rf *")
+    }
+}
