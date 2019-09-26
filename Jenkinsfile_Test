@@ -4,6 +4,6 @@ node {
         echo '0.Init'
         sh("pwd")
         sh("ls")
-        sh("rm -rf *")
+        sh("echo haha > /tmp/a.a")
     }
 }
